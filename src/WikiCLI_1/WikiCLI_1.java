@@ -1,5 +1,5 @@
-package WikiCLI_Pack;
 
+package WikiCLI_1;
 import java.util.ArrayList;
 import java.util.Scanner;
 import org.jsoup.Jsoup;
@@ -14,9 +14,8 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-public class WikiCLI {
-    
-    public static final int SATIR_UZUNLUGU = 120; //120 karakter cmd size olarak
+public class WikiCLI_1 {
+     public static final int SATIR_UZUNLUGU = 120; //120 karakter cmd size olarak
     
     public static void main(String[] args) throws Exception {
         
@@ -121,4 +120,5 @@ public class WikiCLI {
             no = 1;
         }
     }
+    
 }
